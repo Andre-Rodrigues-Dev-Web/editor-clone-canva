@@ -6,7 +6,7 @@ const SidebarContainer = styled.div`
     display: flex;
     flex-direction: column;
     height: calc(-72px + 100vh);
-    width: 250px;
+    width: calc(100vh - 43vw);
 `;
 
 const ContainerPhoto = styled.div`
