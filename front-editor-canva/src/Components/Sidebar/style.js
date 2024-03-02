@@ -6,7 +6,7 @@ const SidebarContainer = styled.div`
     display: flex;
     flex-direction: column;
     height: calc(-72px + 100vh);
-    width: 250px;
+    width: calc(100vh - 43vw);
 `;
 
 const ContainerPhoto = styled.div`
@@ -53,12 +53,18 @@ const ContainerLinks = styled.div`
         }
         &:nth-child(2){
             span{
+                &.text-gradient{
+                    background: linear-gradient(to bottom right, #03a5ab, #8b3dff);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    color: transparent;
+                    display: block;
+                }
                 &:last-child{
                     background-color: #8b3dff;
                     border-radius: 3em;
                     color: #fff;
                     font-size: 0.7rem;
-                    margin-left: 4.5em;
                     padding: 5px 1em;
                 }
             }
