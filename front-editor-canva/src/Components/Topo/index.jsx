@@ -44,6 +44,14 @@ const Topo = () => {
                         { name: "Option 3", path: "/option3" },
                     ]}
                 />
+                <Dropdown
+                    nameDropDown="Aprenda"
+                    linksDropDown={[
+                        { name: "Option 1", path: "/option1" },
+                        { name: "Option 2", path: "/option2" },
+                        { name: "Option 3", path: "/option3" },
+                    ]}
+                />
             </Links>
         </ContentLeft>
         <ContentRight>
