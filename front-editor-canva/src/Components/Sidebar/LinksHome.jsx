@@ -14,7 +14,7 @@ const LinksHome = () => {
             </Link>
             <Link to="/about">
                 <BsStars size={25} />
-                <span>Estúdio Mágico</span>
+                <span className="text-gradient">Estúdio Mágico</span>
                 <span>Novo</span>
             </Link>
             <Link to="/contact">
