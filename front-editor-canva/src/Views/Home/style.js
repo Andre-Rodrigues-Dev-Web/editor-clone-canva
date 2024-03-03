@@ -4,7 +4,7 @@ const Content = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px;
-  width: 80vw;
+  width: 90vw;
 `;
 
 const ContainerSearch = styled.div`
